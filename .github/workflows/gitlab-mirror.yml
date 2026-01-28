@@ -13,6 +13,6 @@ jobs:
           fetch-depth: 0
       - uses: yesolutions/mirror-action@master
         with:
-          REMOTE: "https://gitlab.com/SEU-USUARIO/21_AML_Graph_Fraud_Detection.git" # <--- AJUSTE AQUI
+          REMOTE: "https://gitlab.com/glaubinho.franca/21_AML_Graph_Fraud_Detection.git"
           GIT_USERNAME: ${{ secrets.GITLAB_USERNAME }}
           GIT_PASSWORD: ${{ secrets.GITLAB_TOKEN }}
